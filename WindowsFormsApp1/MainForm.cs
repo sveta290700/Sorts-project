@@ -25,9 +25,7 @@ namespace WindowsFormsApp1
 
         private void GenerateButton_Click(object sender, EventArgs e)
         {
-            if (NTextBox.Text != "")
-            {
-                if (NTextBox.Text.All(char.IsDigit))
+            if (NTextBox.Text.All(char.IsDigit))
                 {
                     int parsedN = int.Parse(NTextBox.Text);
                     if (parsedN >= 1 && parsedN <= 1000)
@@ -52,18 +50,11 @@ namespace WindowsFormsApp1
                         ErrorForm.ErrorLabel.Text = "N должно находиться в интервале [1, 1000]";
                         ErrorForm.ShowDialog();
                     }
-                }
-                else
-                {
-                    ErrorForm ErrorForm = new ErrorForm();
-                    ErrorForm.ErrorLabel.Text = "Встречен отличный от цифры символ.";
-                    ErrorForm.ShowDialog();
-                }
             }
             else
             {
                 ErrorForm ErrorForm = new ErrorForm();
-                ErrorForm.ErrorLabel.Text = "N не было задано.";
+                ErrorForm.ErrorLabel.Text = "Встречен отличный от цифры символ.";
                 ErrorForm.ShowDialog();
             }
         }
@@ -133,8 +124,8 @@ namespace WindowsFormsApp1
             //метод, возвращающий индекс опорного элемента
             int Partition(int[] array, int minIndex, int maxIndex)
             {
-                var pivot = minIndex - 1;
-                for (var i = minIndex; i < maxIndex; i++)
+                int pivot = minIndex - 1;
+                for (int i = minIndex; i < maxIndex; i++)
                 {
                     if (array[i] < array[maxIndex])
                     {
@@ -155,7 +146,6 @@ namespace WindowsFormsApp1
                 var pivotIndex = Partition(array, minIndex, maxIndex);
                 QuickSort(array, minIndex, pivotIndex - 1);
                 QuickSort(array, pivotIndex + 1, maxIndex);
-
                 return array;
             }
             string[] param = GeneratedSequenceTextBox.Text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
@@ -178,18 +168,19 @@ namespace WindowsFormsApp1
         {
             int[] CombSort(int[] inputArray)
             {
-                /*for (int i = 0; i < N - 1; i++)
+                const double factor = 1.247; // Фактор уменьшения
+                double step = N - 1;
+                while (step >= 1)
                 {
-                    for (int j = i + 1; j > 0; j--)
+                    for (int i = 0; i + step < N; ++i)
                     {
-                        if (inputArray[j - 1] > inputArray[j])
+                        if (inputArray[i] > inputArray[i + (int)step])
                         {
-                            int temp = inputArray[j - 1];
-                            inputArray[j - 1] = inputArray[j];
-                            inputArray[j] = temp;
+                            Swap(ref inputArray[i], ref inputArray[i + (int)step]);
                         }
                     }
-                }*/
+                    step /= factor;
+                }
                 return inputArray;
             }
             string[] param = GeneratedSequenceTextBox.Text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
@@ -244,6 +235,14 @@ namespace WindowsFormsApp1
             CombButton.Enabled = true;
             GraphButton.Enabled = true;
             SaveButton.Enabled = false;
+        }
+
+        private void NTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (NTextBox.Text != "")
+                GenerateButton.Enabled = true;
+            else
+                GenerateButton.Enabled = false;
         }
     }
 }

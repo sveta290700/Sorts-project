@@ -135,6 +135,7 @@
             // 
             // GenerateButton
             // 
+            this.GenerateButton.Enabled = false;
             this.GenerateButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.GenerateButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GenerateButton.Location = new System.Drawing.Point(382, 55);
@@ -339,6 +340,7 @@
             this.NTextBox.TabIndex = 2;
             this.NTextBox.WaterMarkColor = System.Drawing.Color.Gray;
             this.NTextBox.WaterMarkText = "[1, 1000]";
+            this.NTextBox.TextChanged += new System.EventHandler(this.NTextBox_TextChanged);
             // 
             // MainForm
             // 
