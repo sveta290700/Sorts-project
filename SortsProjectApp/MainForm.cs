@@ -146,7 +146,7 @@ namespace SortsProjectApp
         private void BubbleButton_Click(object sender, EventArgs e)
         {
             int[] arr = getArrayFromTextBox();
-            stopwatch.Start();
+            stopwatch.Restart();
             BubbleSort(arr);
             stopwatch.Stop();
             TimeTextBox.Text = stopwatch.Elapsed.TotalMilliseconds.ToString() + " мс";
@@ -161,7 +161,7 @@ namespace SortsProjectApp
         private void InsertButton_Click(object sender, EventArgs e)
         {
             int[] arr = getArrayFromTextBox();
-            stopwatch.Start();
+            stopwatch.Restart();
             InsertionSort(arr);
             stopwatch.Stop();
             TimeTextBox.Text = stopwatch.Elapsed.TotalMilliseconds.ToString() + " мс";
@@ -176,7 +176,7 @@ namespace SortsProjectApp
         private void QuickButton_Click(object sender, EventArgs e)
         {
             int[] arr = getArrayFromTextBox();
-            stopwatch.Start();
+            stopwatch.Restart();
             QuickSort(arr, 0, N - 1);
             stopwatch.Stop();
             TimeTextBox.Text = stopwatch.Elapsed.TotalMilliseconds.ToString() + " мс";
@@ -194,7 +194,7 @@ namespace SortsProjectApp
             int[] arr = new int[param.Length];
             for (int i = 0; i < param.Length; i++)
                 arr[i] = int.Parse(param[i]);
-            stopwatch.Start();
+            stopwatch.Restart();
             CombSort(arr);
             stopwatch.Stop();
             TimeTextBox.Text = stopwatch.Elapsed.TotalMilliseconds.ToString() + " мс";
@@ -209,22 +209,22 @@ namespace SortsProjectApp
         private void GraphButton_Click(object sender, EventArgs e)
         {
             int[] arr = getArrayFromTextBox();
-            stopwatch.Start();
+            stopwatch.Restart();
             BubbleSort(arr);
             stopwatch.Stop();
             double bubbleTime = stopwatch.Elapsed.TotalMilliseconds;
             arr = getArrayFromTextBox();
-            stopwatch.Start();
+            stopwatch.Restart();
             InsertionSort(arr);
             stopwatch.Stop();
             double insertionTime = stopwatch.Elapsed.TotalMilliseconds;
             arr = getArrayFromTextBox();
-            stopwatch.Start();
+            stopwatch.Restart();
             QuickSort(arr, 0, N - 1);
             stopwatch.Stop();
             double quickTime = stopwatch.Elapsed.TotalMilliseconds;
             arr = getArrayFromTextBox();
-            stopwatch.Start();
+            stopwatch.Restart();
             CombSort(arr);
             stopwatch.Stop();
             double combTime = stopwatch.Elapsed.TotalMilliseconds;
