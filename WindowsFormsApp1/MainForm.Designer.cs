@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace SortsProjectApp
 {
     partial class MainForm
     {
@@ -322,7 +322,7 @@
             // 
             // TimerPictureBox
             // 
-            this.TimerPictureBox.Image = global::WindowsFormsApp1.Properties.Resources.Timer;
+            this.TimerPictureBox.Image = global::SortsProjectApp.Properties.Resources.Timer;
             this.TimerPictureBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.TimerPictureBox.Location = new System.Drawing.Point(447, 358);
             this.TimerPictureBox.Name = "TimerPictureBox";

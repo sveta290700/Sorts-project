@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace SortsProjectApp
 {
     partial class ErrorForm
     {
