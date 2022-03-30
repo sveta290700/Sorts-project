@@ -48,3 +48,28 @@ D:\SVETA@mail.ru - ЛИЧНАЯ ПАПКА\всякое\ДВФУ\Сопрово�
 D:\SVETA@mail.ru - ЛИЧНАЯ ПАПКА\всякое\ДВФУ\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProject.csproj.CopyComplete
 D:\SVETA@mail.ru - ЛИЧНАЯ ПАПКА\всякое\ДВФУ\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.exe
 D:\SVETA@mail.ru - ЛИЧНАЯ ПАПКА\всякое\ДВФУ\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.pdb
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\SortsProjectApp.exe.config
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\SortsProjectApp.exe
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\SortsProjectApp.pdb
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\ru\SortsProjectApp.resources.dll
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.dll
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.pdb
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.xml
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProject.csproj.AssemblyReference.cache
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.ErrorForm.resources
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.GraphForm.resources
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.MainForm.resources
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.Properties.Resources.resources
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.MainForm.ru.resources
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProject.csproj.GenerateResource.cache
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProject.csproj.CoreCompileInputs.cache
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\ru\SortsProjectApp.resources.dll
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProject.csproj.CopyComplete
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.exe
+C:\Users\777rs\Desktop\Учёба\Сопровождение ИС\Sorts-project\SortsProjectApp\obj\Debug\SortsProjectApp.pdb

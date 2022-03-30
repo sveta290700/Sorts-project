@@ -39,14 +39,15 @@ namespace SortsProjectApp
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Graph.Location = new System.Drawing.Point(12, 12);
+            this.Graph.MaximumSize = new System.Drawing.Size(760, 405);
             this.Graph.Name = "Graph";
-            this.Graph.Size = new System.Drawing.Size(760, 417);
+            this.Graph.Size = new System.Drawing.Size(760, 405);
             this.Graph.TabIndex = 0;
             this.Graph.Text = "График-сравнение времени";
             // 
             // GraphForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(784, 441);

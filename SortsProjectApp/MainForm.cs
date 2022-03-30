@@ -104,6 +104,7 @@ namespace SortsProjectApp
                 if (parsedN >= 1 && parsedN <= 1000)
                 {
                     N = parsedN;
+                    GeneratedSequenceTextBox.Clear();
                     SortedSequenceTextBox.Clear();
                     TimeTextBox.Clear();
                     int[] input = new int[N];
@@ -113,11 +114,12 @@ namespace SortsProjectApp
                             input[i] = rand.Next(200);
                             GeneratedSequenceTextBox.Text = GeneratedSequenceTextBox.Text + input[i] + ' ';
                         }
-                        BubbleButton.Enabled = true;
-                        InsertButton.Enabled = true;
-                        QuickButton.Enabled = true;
-                        CombButton.Enabled = true;
-                        GraphButton.Enabled = true;
+                    BubbleButton.Enabled = true;
+                    InsertButton.Enabled = true;
+                    QuickButton.Enabled = true;
+                    CombButton.Enabled = true;
+                    GraphButton.Enabled = true;
+                    GeneratedSequenceTextBox.Enabled = true;
                 }
                 else
                 {
@@ -156,6 +158,7 @@ namespace SortsProjectApp
                 SortedSequenceTextBox.Text = SortedSequenceTextBox.Text + arr[i] + ' ';
             }
             SaveButton.Enabled = true;
+            SortedSequenceTextBox.Enabled = true;
         }
 
         private void InsertButton_Click(object sender, EventArgs e)
@@ -171,6 +174,7 @@ namespace SortsProjectApp
                 SortedSequenceTextBox.Text = SortedSequenceTextBox.Text + arr[i] + ' ';
             }
             SaveButton.Enabled = true;
+            SortedSequenceTextBox.Enabled = true;
         }
 
         private void QuickButton_Click(object sender, EventArgs e)
@@ -186,6 +190,7 @@ namespace SortsProjectApp
                 SortedSequenceTextBox.Text = SortedSequenceTextBox.Text + arr[i] + ' ';
             }
             SaveButton.Enabled = true;
+            SortedSequenceTextBox.Enabled = true;
         }
 
         private void CombButton_Click(object sender, EventArgs e)
@@ -204,6 +209,7 @@ namespace SortsProjectApp
                 SortedSequenceTextBox.Text = SortedSequenceTextBox.Text + arr[i] + ' ';
             }
             SaveButton.Enabled = true;
+            SortedSequenceTextBox.Enabled = true;
         }
 
         private void GraphButton_Click(object sender, EventArgs e)
@@ -253,7 +259,9 @@ namespace SortsProjectApp
         {
             N = 0;
             GeneratedSequenceTextBox.Clear();
+            GeneratedSequenceTextBox.Enabled = false;
             SortedSequenceTextBox.Clear();
+            SortedSequenceTextBox.Enabled = false;
             TimeTextBox.Clear();
             NTextBox.Clear();
             BubbleButton.Enabled = true;
