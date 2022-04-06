@@ -264,11 +264,11 @@ namespace SortsProjectApp
             SortedSequenceTextBox.Enabled = false;
             TimeTextBox.Clear();
             NTextBox.Clear();
-            BubbleButton.Enabled = true;
-            InsertButton.Enabled = true;
-            QuickButton.Enabled = true;
-            CombButton.Enabled = true;
-            GraphButton.Enabled = true;
+            BubbleButton.Enabled = false;
+            InsertButton.Enabled = false;
+            QuickButton.Enabled = false;
+            CombButton.Enabled = false;
+            GraphButton.Enabled = false;
             SaveButton.Enabled = false;
         }
 
