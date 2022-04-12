@@ -60,7 +60,7 @@
             this.GeneratedSequenceTextBox.Enabled = false;
             this.GeneratedSequenceTextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.GeneratedSequenceTextBox.Location = new System.Drawing.Point(15, 143);
-            this.GeneratedSequenceTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GeneratedSequenceTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.GeneratedSequenceTextBox.Multiline = true;
             this.GeneratedSequenceTextBox.Name = "GeneratedSequenceTextBox";
             this.GeneratedSequenceTextBox.ReadOnly = true;
@@ -73,7 +73,7 @@
             this.SortedSequenceTextBox.Enabled = false;
             this.SortedSequenceTextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.SortedSequenceTextBox.Location = new System.Drawing.Point(435, 143);
-            this.SortedSequenceTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SortedSequenceTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.SortedSequenceTextBox.Multiline = true;
             this.SortedSequenceTextBox.Name = "SortedSequenceTextBox";
             this.SortedSequenceTextBox.ReadOnly = true;
@@ -87,7 +87,7 @@
             this.BubbleButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.BubbleButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.BubbleButton.Location = new System.Drawing.Point(15, 399);
-            this.BubbleButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BubbleButton.Margin = new System.Windows.Forms.Padding(2);
             this.BubbleButton.Name = "BubbleButton";
             this.BubbleButton.Size = new System.Drawing.Size(108, 39);
             this.BubbleButton.TabIndex = 8;
@@ -101,7 +101,7 @@
             this.InsertButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.InsertButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.InsertButton.Location = new System.Drawing.Point(15, 448);
-            this.InsertButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InsertButton.Margin = new System.Windows.Forms.Padding(2);
             this.InsertButton.Name = "InsertButton";
             this.InsertButton.Size = new System.Drawing.Size(108, 39);
             this.InsertButton.TabIndex = 10;
@@ -115,7 +115,7 @@
             this.QuickButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.QuickButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.QuickButton.Location = new System.Drawing.Point(138, 399);
-            this.QuickButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.QuickButton.Margin = new System.Windows.Forms.Padding(2);
             this.QuickButton.Name = "QuickButton";
             this.QuickButton.Size = new System.Drawing.Size(108, 39);
             this.QuickButton.TabIndex = 9;
@@ -131,7 +131,7 @@
             this.NLabel.Location = new System.Drawing.Point(341, 18);
             this.NLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NLabel.Name = "NLabel";
-            this.NLabel.Size = new System.Drawing.Size(56, 32);
+            this.NLabel.Size = new System.Drawing.Size(37, 21);
             this.NLabel.TabIndex = 1;
             this.NLabel.Text = "N =";
             // 
@@ -141,7 +141,7 @@
             this.GenerateButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.GenerateButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GenerateButton.Location = new System.Drawing.Point(382, 55);
-            this.GenerateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GenerateButton.Margin = new System.Windows.Forms.Padding(2);
             this.GenerateButton.Name = "GenerateButton";
             this.GenerateButton.Size = new System.Drawing.Size(135, 39);
             this.GenerateButton.TabIndex = 4;
@@ -154,7 +154,7 @@
             this.ClearButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.ClearButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ClearButton.Location = new System.Drawing.Point(544, 448);
-            this.ClearButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ClearButton.Margin = new System.Windows.Forms.Padding(2);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(108, 39);
             this.ClearButton.TabIndex = 21;
@@ -164,12 +164,13 @@
             // 
             // TimeTextBox
             // 
+            this.TimeTextBox.Enabled = false;
             this.TimeTextBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.TimeTextBox.Location = new System.Drawing.Point(631, 356);
-            this.TimeTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TimeTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.TimeTextBox.Name = "TimeTextBox";
             this.TimeTextBox.ReadOnly = true;
-            this.TimeTextBox.Size = new System.Drawing.Size(136, 39);
+            this.TimeTextBox.Size = new System.Drawing.Size(136, 29);
             this.TimeTextBox.TabIndex = 17;
             // 
             // LengthLabel
@@ -180,7 +181,7 @@
             this.LengthLabel.Location = new System.Drawing.Point(11, 18);
             this.LengthLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LengthLabel.Name = "LengthLabel";
-            this.LengthLabel.Size = new System.Drawing.Size(506, 32);
+            this.LengthLabel.Size = new System.Drawing.Size(326, 21);
             this.LengthLabel.TabIndex = 0;
             this.LengthLabel.Text = "1) Длина сортируемой последовательности:";
             // 
@@ -192,7 +193,7 @@
             this.GenerateLabel.Location = new System.Drawing.Point(11, 61);
             this.GenerateLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.GenerateLabel.Name = "GenerateLabel";
-            this.GenerateLabel.Size = new System.Drawing.Size(550, 32);
+            this.GenerateLabel.Size = new System.Drawing.Size(355, 21);
             this.GenerateLabel.TabIndex = 3;
             this.GenerateLabel.Text = "2) Сгенерировать последовательность длины N:";
             // 
@@ -204,7 +205,7 @@
             this.GeneratedSequenceLabel.Location = new System.Drawing.Point(11, 104);
             this.GeneratedSequenceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.GeneratedSequenceLabel.Name = "GeneratedSequenceLabel";
-            this.GeneratedSequenceLabel.Size = new System.Drawing.Size(477, 32);
+            this.GeneratedSequenceLabel.Size = new System.Drawing.Size(308, 21);
             this.GeneratedSequenceLabel.TabIndex = 5;
             this.GeneratedSequenceLabel.Text = "3) Сгенерированная последовательность:";
             // 
@@ -216,7 +217,7 @@
             this.SortLabel.Location = new System.Drawing.Point(11, 359);
             this.SortLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SortLabel.Name = "SortLabel";
-            this.SortLabel.Size = new System.Drawing.Size(284, 32);
+            this.SortLabel.Size = new System.Drawing.Size(184, 21);
             this.SortLabel.TabIndex = 7;
             this.SortLabel.Text = "4.1) Способ сортировки:";
             // 
@@ -228,7 +229,7 @@
             this.GraphLabel.Location = new System.Drawing.Point(11, 507);
             this.GraphLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.GraphLabel.Name = "GraphLabel";
-            this.GraphLabel.Size = new System.Drawing.Size(393, 32);
+            this.GraphLabel.Size = new System.Drawing.Size(255, 21);
             this.GraphLabel.TabIndex = 12;
             this.GraphLabel.Text = "4.2) Построить график-сравнение:";
             // 
@@ -240,7 +241,7 @@
             this.ResultLabel.Location = new System.Drawing.Point(430, 105);
             this.ResultLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ResultLabel.Name = "ResultLabel";
-            this.ResultLabel.Size = new System.Drawing.Size(153, 32);
+            this.ResultLabel.Size = new System.Drawing.Size(101, 21);
             this.ResultLabel.TabIndex = 14;
             this.ResultLabel.Text = "5) Результат:";
             // 
@@ -252,7 +253,7 @@
             this.SaveLabel.Location = new System.Drawing.Point(430, 408);
             this.SaveLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SaveLabel.Name = "SaveLabel";
-            this.SaveLabel.Size = new System.Drawing.Size(245, 32);
+            this.SaveLabel.Size = new System.Drawing.Size(159, 21);
             this.SaveLabel.TabIndex = 18;
             this.SaveLabel.Text = "6) Сохранить в файл:";
             // 
@@ -262,7 +263,7 @@
             this.CombButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.CombButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.CombButton.Location = new System.Drawing.Point(138, 448);
-            this.CombButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CombButton.Margin = new System.Windows.Forms.Padding(2);
             this.CombButton.Name = "CombButton";
             this.CombButton.Size = new System.Drawing.Size(108, 39);
             this.CombButton.TabIndex = 11;
@@ -276,7 +277,7 @@
             this.GraphButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.GraphButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GraphButton.Location = new System.Drawing.Point(272, 499);
-            this.GraphButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GraphButton.Margin = new System.Windows.Forms.Padding(2);
             this.GraphButton.Name = "GraphButton";
             this.GraphButton.Size = new System.Drawing.Size(153, 39);
             this.GraphButton.TabIndex = 13;
@@ -292,7 +293,7 @@
             this.TimeLabel.Location = new System.Drawing.Point(481, 359);
             this.TimeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TimeLabel.Name = "TimeLabel";
-            this.TimeLabel.Size = new System.Drawing.Size(227, 32);
+            this.TimeLabel.Size = new System.Drawing.Size(146, 21);
             this.TimeLabel.TabIndex = 16;
             this.TimeLabel.Text = "Время сортировки:";
             // 
@@ -302,7 +303,7 @@
             this.SaveButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.SaveButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SaveButton.Location = new System.Drawing.Point(605, 399);
-            this.SaveButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SaveButton.Margin = new System.Windows.Forms.Padding(2);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(108, 39);
             this.SaveButton.TabIndex = 19;
@@ -318,7 +319,7 @@
             this.CleanLabel.Location = new System.Drawing.Point(430, 457);
             this.CleanLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CleanLabel.Name = "CleanLabel";
-            this.CleanLabel.Size = new System.Drawing.Size(150, 32);
+            this.CleanLabel.Size = new System.Drawing.Size(99, 21);
             this.CleanLabel.TabIndex = 20;
             this.CleanLabel.Text = "7) Очистить:";
             // 
@@ -338,7 +339,7 @@
             this.NTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NTextBox.Location = new System.Drawing.Point(383, 15);
             this.NTextBox.Name = "NTextBox";
-            this.NTextBox.Size = new System.Drawing.Size(105, 39);
+            this.NTextBox.Size = new System.Drawing.Size(105, 29);
             this.NTextBox.TabIndex = 2;
             this.NTextBox.WaterMarkColor = System.Drawing.Color.Gray;
             this.NTextBox.WaterMarkText = "[1, 1000]";
@@ -375,7 +376,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";

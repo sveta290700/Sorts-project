@@ -159,6 +159,7 @@ namespace SortsProjectApp
             }
             SaveButton.Enabled = true;
             SortedSequenceTextBox.Enabled = true;
+            TimeTextBox.Enabled = true;
         }
 
         private void InsertButton_Click(object sender, EventArgs e)
@@ -175,6 +176,7 @@ namespace SortsProjectApp
             }
             SaveButton.Enabled = true;
             SortedSequenceTextBox.Enabled = true;
+            TimeTextBox.Enabled = true;
         }
 
         private void QuickButton_Click(object sender, EventArgs e)
@@ -191,6 +193,7 @@ namespace SortsProjectApp
             }
             SaveButton.Enabled = true;
             SortedSequenceTextBox.Enabled = true;
+            TimeTextBox.Enabled = true;
         }
 
         private void CombButton_Click(object sender, EventArgs e)
@@ -210,6 +213,7 @@ namespace SortsProjectApp
             }
             SaveButton.Enabled = true;
             SortedSequenceTextBox.Enabled = true;
+            TimeTextBox.Enabled = true;
         }
 
         private void GraphButton_Click(object sender, EventArgs e)
@@ -263,6 +267,7 @@ namespace SortsProjectApp
             SortedSequenceTextBox.Clear();
             SortedSequenceTextBox.Enabled = false;
             TimeTextBox.Clear();
+            TimeTextBox.Enabled = false;
             NTextBox.Clear();
             BubbleButton.Enabled = false;
             InsertButton.Enabled = false;
