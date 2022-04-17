@@ -49,7 +49,6 @@ namespace SortsProjectApp
             return inputArray;
         }
 
-        //метод, возвращающий индекс опорного элемента
         private int Partition(int[] array, int minIndex, int maxIndex)
         {
             int pivot = minIndex - 1;
@@ -63,7 +62,7 @@ namespace SortsProjectApp
             }
             pivot++;
             Swap(ref array[pivot], ref array[maxIndex]);
-            return pivot;
+            return pivot; //индекс опорного элемента
         }
 
         public int[] QuickSort(int[] array, int minIndex, int maxIndex)
@@ -136,7 +135,7 @@ namespace SortsProjectApp
             }
         }
 
-        private int[] getArrayFromTextBox()
+        private int[] GetArrayFromTextBox()
         {
             string[] param = GeneratedSequenceTextBox.Text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             int[] arr = new int[param.Length];
@@ -147,7 +146,7 @@ namespace SortsProjectApp
 
         private void BubbleButton_Click(object sender, EventArgs e)
         {
-            int[] arr = getArrayFromTextBox();
+            int[] arr = GetArrayFromTextBox();
             stopwatch.Restart();
             BubbleSort(arr);
             stopwatch.Stop();
@@ -164,7 +163,7 @@ namespace SortsProjectApp
 
         private void InsertButton_Click(object sender, EventArgs e)
         {
-            int[] arr = getArrayFromTextBox();
+            int[] arr = GetArrayFromTextBox();
             stopwatch.Restart();
             InsertionSort(arr);
             stopwatch.Stop();
@@ -181,7 +180,7 @@ namespace SortsProjectApp
 
         private void QuickButton_Click(object sender, EventArgs e)
         {
-            int[] arr = getArrayFromTextBox();
+            int[] arr = GetArrayFromTextBox();
             stopwatch.Restart();
             QuickSort(arr, 0, N - 1);
             stopwatch.Stop();
@@ -218,22 +217,22 @@ namespace SortsProjectApp
 
         private void GraphButton_Click(object sender, EventArgs e)
         {
-            int[] arr = getArrayFromTextBox();
+            int[] arr = GetArrayFromTextBox();
             stopwatch.Restart();
             BubbleSort(arr);
             stopwatch.Stop();
             double bubbleTime = stopwatch.Elapsed.TotalMilliseconds;
-            arr = getArrayFromTextBox();
+            arr = GetArrayFromTextBox();
             stopwatch.Restart();
             InsertionSort(arr);
             stopwatch.Stop();
             double insertionTime = stopwatch.Elapsed.TotalMilliseconds;
-            arr = getArrayFromTextBox();
+            arr = GetArrayFromTextBox();
             stopwatch.Restart();
             QuickSort(arr, 0, N - 1);
             stopwatch.Stop();
             double quickTime = stopwatch.Elapsed.TotalMilliseconds;
-            arr = getArrayFromTextBox();
+            arr = GetArrayFromTextBox();
             stopwatch.Restart();
             CombSort(arr);
             stopwatch.Stop();
